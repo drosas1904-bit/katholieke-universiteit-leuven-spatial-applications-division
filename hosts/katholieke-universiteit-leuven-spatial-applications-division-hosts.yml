@@ -1,0 +1,93 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 7
+  own: 7
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - other
+  - status
+  - website
+hosts:
+- host: admin.kuleuven.be
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: kuleuven.be
+  role: other
+  relation: own
+- host: api.kuleuven.be
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: kuleuven.be
+  role: api
+  relation: own
+- host: ees.kuleuven.be
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  - Documentation
+  - About
+  - Training
+  - Projects
+  - Contact
+  serves: []
+  registrable_domain: kuleuven.be
+  role: website
+  relation: own
+- host: icts.kuleuven.be
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: kuleuven.be
+  role: other
+  relation: own
+- host: status.kuleuven.be
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: kuleuven.be
+  role: status
+  relation: own
+- host: toledo.kuleuven.be
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: kuleuven.be
+  role: other
+  relation: own
+- host: www.sadl.kuleuven.be
+  found_by:
+  - probed
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: kuleuven.be
+  role: other
+  relation: own

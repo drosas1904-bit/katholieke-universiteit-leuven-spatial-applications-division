@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/katholieke-universiteit-leuven-spatial-applications-division/integrations
+- https://n8n.io/integrations/katholieke-universiteit-leuven-spatial-applications-division/
+- https://composio.dev/toolkits/katholieke-universiteit-leuven-spatial-applications-division
+- https://monid.ai/tools/katholieke-universiteit-leuven-spatial-applications-division
+checked:
+- https://composio.dev/toolkits/katholieke-universiteit-leuven-spatial-applications-division
+- https://monid.ai/tools/katholieke-universiteit-leuven-spatial-applications-division
+- https://n8n.io/integrations/katholieke-universiteit-leuven-spatial-applications-division/
+- https://zapier.com/apps/katholieke-universiteit-leuven-spatial-applications-division/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

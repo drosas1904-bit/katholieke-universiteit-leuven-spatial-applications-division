@@ -1,24 +1,61 @@
 aid: katholieke-universiteit-leuven-spatial-applications-division
+
 name: Katholieke Universiteit Leuven, Spatial Applications Division
-description: 'Katholieke Universiteit Leuven, Spatial Applications Division is a company surfaced via
-  the API Evangelist harvest backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline
-  profiling.'
+
+image: https://ees.kuleuven.be/++resource++plone-logo.svg
+
+description: 'The Spatial Applications Division (SADL) of the Katholieke Universiteit Leuven (KU Leuven) conducts research, consultancy, and training in geographic information science and technology. It bridges academic research with practical applications for land management, environmental assessment, and socio‑economic studies, serving public authorities, industry, and the broader community through projects, scientific consulting, and educational programmes.'
+
 url: https://raw.githubusercontent.com/api-evangelist/katholieke-universiteit-leuven-spatial-applications-division/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Research
+- Education
+- Geospatial
+- Consultancy
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/katholieke-universiteit-leuven-spatial-applications-division-hosts.yml
+- type: DomainSecurity
+  url: security/katholieke-universiteit-leuven-spatial-applications-division-domain-security.yml
 - type: Website
-  url: http://www.sadl.kuleuven.be
+  url: https://ees.kuleuven.be/en/sadl
+- type: Documentation
+  url: https://ees.kuleuven.be/en/sadl
+- type: About
+  url: https://ees.kuleuven.be/en/sadl/about-sadl
+- type: Training
+  url: https://ees.kuleuven.be/en/sadl/training
+- type: Projects
+  url: https://ees.kuleuven.be/eng/sadl/projects
+- type: Contact
+  url: https://ees.kuleuven.be/en/sadl/contact
+
+apis: []
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
